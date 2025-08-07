@@ -1,0 +1,49 @@
+Warning: --window-icon is deprecated and will be removed in a future version of zenity; Treating as --icon.
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.917: Theme parser error: gtk.css:7888:15-19: Expected a valid color.
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.917: Theme parser error: gtk.css:7888:15-19: Junk at end of value for background
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.917: Theme parser error: gtk.css:7903:3-17: No property named "--accent-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.917: Theme parser error: gtk.css:7909:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.917: Theme parser error: gtk.css:7913:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.920: Theme parser error: gtk.css:7917:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.920: Theme parser error: gtk.css:7921:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.920: Theme parser error: gtk.css:7925:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.920: Theme parser error: gtk.css:7929:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.921: Theme parser error: gtk.css:7933:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.921: Theme parser error: gtk.css:7937:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.921: Theme parser error: gtk.css:7941:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7888:15-19: Expected a valid color.
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7888:15-19: Junk at end of value for background
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7903:3-17: No property named "--accent-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7909:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7913:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7917:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7921:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7925:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7929:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7933:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.938: Theme parser error: gtk.css:7937:3-20: No property named "--accent-bg-color"
+
+(zenity:286085): Gtk-WARNING **: 12:39:16.939: Theme parser error: gtk.css:7941:3-20: No property named "--accent-bg-color"
