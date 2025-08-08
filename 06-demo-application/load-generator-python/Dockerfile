@@ -1,16 +1,11 @@
-FROM python:3.12-slim AS generate-requirements
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
-RUN curl -sSL https://install.python-poetry.org | python3 -
-ENV PATH="/root/.local/bin:$PATH"
-# Export is provided by a plugin in newer versions of poetry 
-RUN poetry self add "poetry-plugin-export[requirements]"
-COPY pyproject.toml poetry.lock ./
-RUN poetry export --output requirements.txt
-
-# ###
-
 FROM python:3.12-slim AS production
-COPY --from=generate-requirements /requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . . 
+
+# Configure pip to use Chinese mirror (Tsinghua University)
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
+
+# Install requests package using the mirror
+RUN pip install --no-cache-dir requests==2.32.2
+
+COPY . .
 CMD ["python", "main.py"]
